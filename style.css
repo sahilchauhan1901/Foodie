@@ -124,6 +124,7 @@ nav ul{
 .name:hover{
     background-color: lightgray;
     border-radius: 8px;
+    padding: 10px 10px;
 }
 @media(max-width:576px){
     .name{
