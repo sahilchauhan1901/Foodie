@@ -29,83 +29,131 @@
         </div>
     </div>
     <h1 class="h1">A FOOD WITH A SHARP TASTE</h1>
-    <div class="card-contianer">
-        <!--card -->
-        <div class="card">
-            <img src="https://source.unsplash.com/1600x900?pizza" class="card-img" alt="">
-            <h1 class="card-desc">Pizza</h1>
-            <p class="card-desc">The perfect lover is one who turns into a pizza at 4:00 A.M.</p>
-            <a href="https://www.zomato.com/yamuna-nagar/hangries-yamuna-nagar-locality/order"><button class="btn" class="btn">Order</button></a>
-
+    <div class="order-Successfull" id="orderSuccessfull">
+        <!-- <img src="" class="orderSucess-img" alt=""> -->
+        <div class="textCenter">
+            <!-- <h1>hey</h1> --><svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M70 112.4C86.5685 112.4 100 98.5282 100 81.416C100 64.3038 86.5685 50.4316 70 50.4316C53.4315 50.4316 40 64.3038 40 81.416C40 98.5282 53.4315 112.4 70 112.4Z" fill="#D3F1E0" stroke="#D3F1E0" stroke-width="6.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M80 73.1533L68.9803 88.4918C68.7353 88.832 68.4231 89.1132 68.065 89.3167C67.7069 89.5201 67.3111 89.6409 66.9043 89.6709C66.4976 89.7009 66.0895 89.6395 65.7075 89.4907C65.3255 89.3419 64.9785 89.1093 64.69 88.8086L59 82.8695" stroke="#2BAD62" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse rx="2.99912" ry="3" transform="matrix(0.993526 0.113608 -0.114207 0.993457 33.3675 19.9324)" fill="#FFC736"/>
+    <ellipse rx="2.56486" ry="2.56657" transform="matrix(0.993526 0.113608 -0.114207 0.993457 116.587 45.7123)" fill="#3ECD80"/>
+    <ellipse rx="2.50483" ry="2.50557" transform="matrix(0.993526 0.113608 -0.114207 0.993457 23.7122 58.1566)" fill="#D3F1E0"/>
+    <rect width="6.84709" height="6.84178" rx="1" transform="matrix(-0.804193 -0.594368 -0.596415 0.802676 38.4434 112.943)" fill="#18B159"/>
+    <rect width="8.15697" height="8.15866" rx="1" transform="matrix(0.804193 -0.594368 0.596415 0.802676 83.4277 18.8486)" fill="#D3F1E0"/>
+    <path d="M115.996 115.049C116.245 114.322 115.611 113.598 114.854 113.746L107.666 115.157C106.91 115.305 106.599 116.214 107.106 116.794L111.925 122.297C112.432 122.876 113.377 122.691 113.627 121.963L115.996 115.049Z" fill="#FFC736"/>
+    </svg>  
+        <h2>We have received your order successfully!</h2>
         </div>
-        <!--card -->
-        <div class="card">
-            <img src="https://source.unsplash.com/1600x900?pasta" class="card-img" alt="">
-            <h1 class="card-desc">Pasta</h1>
-            <p class="card-desc">The word pasta is generally used to describe traditional Italian noodles.</p>
-            <a href="https://www.zomato.com/yamuna-nagar/hangries-yamuna-nagar-locality/order"><button class="btn" class="btn">Order</button></a>
-            
-        </div>
-        
-        <!--card -->
-        <div class="card">
-            <img src="https://source.unsplash.com/1600x900?burger" class="card-img" alt="">
-            <h1 class="card-desc">Burger</h1>
-            <p class="card-desc">The best burgers are like life — messy and topped with bacon.</p>
-            <a href="https://www.zomato.com/yamuna-nagar/hangries-yamuna-nagar-locality/order"><button class="btn" class="btn">Order</button></a>
-            
-        </div>
-    </div>
-    <!-- container 2 -->
-    <div class="card-contianer">
-        <!--card -->
-        <div class="card">
-            <img src="https://source.unsplash.com/1600x900?sandwich" class="card-img" alt="">
-            <h1 class="card-desc">Sandwich</h1>
-            <p class="card-desc">Eat two pieces of bread with something in the middle.</p>
-            <a href="https://www.zomato.com/yamuna-nagar/hangries-yamuna-nagar-locality/order"><button class="btn" class="btn">Order</button></a>
-        </div>
-        <!--card -->
-        <div class="card">
-            <img src="https://source.unsplash.com/1600x900?cake" class="card-img" alt="">
-            <h1 class="card-desc">Cake</h1>
-            <p class="card-desc">She came home and said she had tasted the most delicious cake from foodie.</p>
-            <a href="https://www.zomato.com/yamuna-nagar/hangries-yamuna-nagar-locality/order"><button class="btn" class="btn">Order</button></a>
+        <div class="details">
+            <div class="detailsChild"><p>Item:</p> <p id="name">Veg Supreme Burger</p></div>
+            <div class="detailsChild"><p>Price:</p> <p id="price">99</p></div>
+            <div class="detailsChild"><p>GST:</p> <p id="gst">17</p></div>
+            <div class="detailsChild"><p>Delivery Charges:</p> <p id="deliveryCharges" >40</p></div>
+            <div class="detailsChild"><strong><p>Total:</p></strong> <strong><p id="total">110</p></strong></div>
         </div>
         
+      </div>
+    <div class="flex" id="foodItems">
         <!--card -->
-        <div class="card">
-            <img src="https://source.unsplash.com/1600x900?drink" class="card-img" alt="">
-            <h1 class="card-desc">shake</h1>
-            <p class="card-desc">Meal replacement shakes are often high in fiber.</p>
-            <a href="https://www.zomato.com/yamuna-nagar/hangries-yamuna-nagar-locality/order"><button class="btn" class="btn">Order</button></a>
-        </div>
-    </div>
-    <!-- container 3 -->
-    <div class="card-contianer">
-        <!--card -->
-        <div class="card">
-            <img src="https://source.unsplash.com/1600x900?coffee" class="card-img" alt="">
-            <h1 class="card-desc">Coffee</h1>
-            <p class="card-desc">The better the coffee, the sweeter it typically tastes.</p>
-            <a href="https://www.zomato.com/yamuna-nagar/hangries-yamuna-nagar-locality/order"><button class="btn" class="btn">Order</button></a>
+        <div class="food-items"  >
+            <div class="food-header">
+            <img src="https://source.unsplash.com/1600x800/?Pizza" class="food-img" alt="">
+            <!-- <p class="ratings">4.3 Ratings (3429)</p> -->
+            </div>
+            <h3 >Veg Supreme Pizza</h3>
+            <h4>Rs 399</h4>
+            <p>The perfect lover is one who turns into a pizza at 4:00 A.M.</p>
+            <button class="btn" id="btn" data-name="Veg Supreme Pizza" data-price="399"  >Order Now</button>
         </div>
         <!--card -->
-        <div class="card">
-            <img src="https://source.unsplash.com/1600x900?tea" class="card-img" alt="">
-            <h1 class="card-desc">Special Tea</h1>
-            <p class="card-desc">Tea is an aromatic beverage prepared by pouring hot or boiling water.</p>
-            <a href="https://www.zomato.com/yamuna-nagar/hangries-yamuna-nagar-locality/order"><button class="btn" class="btn">Order</button></a>
+        <div class="food-items"  >
+            <div class="food-header">
+            <img src="https://source.unsplash.com/1600x800/?pasta" class="food-img" alt="">
+            <!-- <p class="ratings">4.3 Ratings (3429)</p> -->
+            </div>
+            <h3 >Pasta</h3>
+            <h4>Rs 129</h4>
+            <p>The word pasta is generally used to describe traditional Italian noodles.</p>
+            <button class="btn" id="btn" data-name="Pasta" data-price="129"  >Order Now</button>
         </div>
-        
         <!--card -->
-        <div class="card">
-            <img src="https://source.unsplash.com/1600x900?soda" class="card-img" alt="">
-            <h1 class="card-desc">Drinks</h1>
-            <p class="card-desc">The “soda” part of the word is derived from the sodium salts within the water.</p>
-            <a href="https://www.zomato.com/yamuna-nagar/hangries-yamuna-nagar-locality/order"><button class="btn" class="btn">Order</button></a>
+        <div class="food-items"  >
+            <div class="food-header">
+            <img src="https://source.unsplash.com/1600x800/?burger" class="food-img" alt="">
+            <!-- <p class="ratings">4.3 Ratings (3429)</p> -->
+            </div>
+            <h3 >Burger</h3>
+            <h4>Rs 99</h4>
+            <p>The best burgers are like life — messy and topped with bacon.</p>
+            <button class="btn" id="btn" data-name="burger" data-price="99">Order Now</button>
         </div>
-    </div>
+        <!-- --card -->
+        <div class="food-items"  >
+            <div class="food-header">
+            <img src="https://source.unsplash.com/1600x800/?sandwich" class="food-img" alt="">
+            <!-- <p class="ratings">4.3 Ratings (3429)</p> -->
+            </div>
+            <h3 >Sandwich</h3>
+            <h4>Rs 110</h4>
+            <p>Eat two pieces of bread with something in the middle.</p>
+            <button class="btn" id="btn" data-name="Sandwich" data-price="110">Order Now</button>
+        </div>
+        <!-- --card -->
+        <div class="food-items"  >
+            <div class="food-header">
+            <img src="https://source.unsplash.com/1600x800/?cake" class="food-img" alt="">
+            <!-- <p class="ratings">4.3 Ratings (3429)</p> -->
+            </div>
+            <h3>Cake</h3>
+            <h4>Rs 450</h4>
+            <p>She came home and said she had tasted the most delicious cake from foodie.</p>
+            <button class="btn" id="btn" data-name="Cake" data-price="450">Order Now</button>
+        </div>
+        <!-- --card -->
+        <div class="food-items"  >
+            <div class="food-header">
+            <img src="https://source.unsplash.com/1600x800/?shake" class="food-img" alt="">
+            <!-- <p class="ratings">4.3 Ratings (3429)</p> -->
+            </div>
+            <h3>Shake</h3>
+            <h4>Rs 180</h4>
+            <p>Meal replacement shakes are often high in fiber.</p>
+            <button class="btn" id="btn" data-name="Shake" data-price="180">Order Now</button>
+        </div>
+        <!-- --card -->
+        <div class="food-items"  >
+            <div class="food-header">
+            <img src="https://source.unsplash.com/1600x800/?coffee" class="food-img" alt="">
+            <!-- <p class="ratings">4.3 Ratings (3429)</p> -->
+            </div>
+            <h3>Coffee</h3>
+            <h4>Rs 91</h4>
+            <p>The better the coffee, the sweeter it typically tastes.</p>
+            <button class="btn" id="btn" data-name="Coffee" data-price="91">Order Now</button>
+        </div>
+        <!-- --card -->
+        <div class="food-items"  >
+            <div class="food-header">
+            <img src="https://source.unsplash.com/1600x800/?tea" class="food-img" alt="">
+            <!-- <p class="ratings">4.3 Ratings (3429)</p> -->
+            </div>
+            <h3>Special Tea</h3>
+            <h4>Rs 39</h4>
+            <p>Tea is an aromatic beverage prepared by pouring hot or boiling water.</p>
+            <button class="btn" id="btn" data-name="Special Tea" data-price="39">Order Now</button>
+        </div>
+        <!-- --card -->
+        <div class="food-items"  >
+            <div class="food-header">
+            <img src="https://source.unsplash.com/1600x800/?soda" class="food-img" alt="">
+            <!-- <p class="ratings">4.3 Ratings (3429)</p> -->
+            </div>
+            <h3>Drinks</h3>
+            <h4>Rs 149</h4>
+            <p>The “soda” part of the word is derived from the sodium salts within the water.</p>
+            <button class="btn" id="btn" data-name="Drink" data-price="149">Order Now</button>
+        </div>
+  </div>
 </body>
-
+    <script src="app.js"></script>
 </html>
